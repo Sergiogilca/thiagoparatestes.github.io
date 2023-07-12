@@ -1,0 +1,58 @@
+body{
+  
+font-family: 'Raleway', sans-serif;
+
+    height: 100%;
+    background: rgb(58, 84, 231);
+background: linear-gradient(97deg, rgb(11, 41, 211) 0%, rgba(158,168,255,1) 100%);
+color: white;
+}
+.avatar{
+
+    width: 100px;
+    border-radius:50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+h1 {
+    font-family: 'Architects Daughter', cursive;
+
+}
+h2{
+    font-size: 16px;
+}
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0 ;
+}
+
+.social img {
+    width: 33px ;
+}
+
+.links-list{
+    list-style-type: none; 
+}
+.links-list li{
+    margin: 10px 20px;
+}
+.links-list li a {
+    display: block;
+    background:white ;
+    padding: 15px 20px ;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(4, 3, 85);
+    font-weight: bold;
+}
+
+.links-list li a spam {
+    color: grey;
+    display: block;
+}
